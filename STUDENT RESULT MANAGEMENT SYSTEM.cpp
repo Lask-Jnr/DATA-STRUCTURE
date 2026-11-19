@@ -56,7 +56,7 @@ private:
         else if (score >= 60) grde = "C";
         else if (score >= 55) grde = "D+";
         else if (score >= 50) grde = "D";
-        else                  grde = "F";
+        else                  grde = "E";
         int i = 0;
         while (grde[i] != '\0') { grade[i] = grde[i]; i++; }
         grade[i] = '\0';
